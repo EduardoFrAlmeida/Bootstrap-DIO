@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+
+nav {
+  background: rgb(27, 28, 255);
+  background: linear-gradient(
+    90deg,
+    rgb(2, 97, 250) 27%,
+    rgba(255, 255, 255, 1) 52%,
+    rgba(255, 0, 0, 1) 78%
+  );
+}
+
+h2, p {
+    color: rgba(255, 255, 255, 1);
+}
+
+#colecao {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.parceria {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.paris {
+    margin-bottom: 30px;
+}
+
+footer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer {
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 1);
+}
